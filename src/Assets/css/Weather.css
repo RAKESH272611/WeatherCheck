@@ -1,0 +1,64 @@
+/* Weather.css */
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .weather-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .weather-data {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .data-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .data-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
